@@ -32,7 +32,7 @@ if r.status_code != 200:
 	sys.exit(1)
 
 # parse the result as json
-productions = r.json()
+productions = r.json
 
 # dict to collect talkid-youtube-pairs
 urls = {}
