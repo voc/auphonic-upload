@@ -22,7 +22,7 @@ with open(args.auphonic) as fp:
 
 # fetch the list of all visible productions from auphonic
 r = requests.get(
-	'https://auphonic.com/api/simple/productions.json?limit=10000',
+	'https://auphonic.com/api/productions.json?limit=10000',
 	auth=(auphonic_login[0], auphonic_login[1])
 )
 
